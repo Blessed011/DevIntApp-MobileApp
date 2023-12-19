@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         alignItems: 'stretch',
         padding: 10,
         gap: 10,
-        backgroundColor: '#ffffff',
+        backgroundColor: '#E0FFFF',
     },
     input: {
         flex: 1,
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
         marginBottom: 4,
     },
     button: {
-        backgroundColor: '#520dc2',
+        backgroundColor: '#008080',
         paddingVertical: 6,
         paddingHorizontal: 8,
     },

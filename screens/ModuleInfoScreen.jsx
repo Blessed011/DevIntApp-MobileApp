@@ -10,10 +10,10 @@ export default function ModuleInfoScreen({ navigation, route }) {
     const { uuid } = route.params;
     const dispatch = useDispatch();
     const { module } = useSelector((store) => store.module);
-    const [src, setSrc] = useState({ uri: `${imageBaseURL}/${uuid}.jpg` });
+    const [src, setSrc] = useState({ uri: `${imageBaseURL}/${uuid}.jpg`  });
 
     // const handlePress = () => {
-    //     navigation.navigate('ContainersList');
+    //     navigation.navigate('ModulesList');
     // };
 
     useEffect(() => {
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start',
         alignItems: 'stretch',
         flexDirection: 'column',
-        backgroundColor: '#ffffff',
+        backgroundColor: '#E0FFFF',
         paddingHorizontal: 0,
         paddingTop: 0,
         overflow: 'hidden',
