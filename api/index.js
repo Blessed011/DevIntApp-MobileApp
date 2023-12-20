@@ -2,7 +2,7 @@ import axios from 'axios';
 import { modules, draft_mission } from './MockData';
 
 const ip = '192.168.1.106'
-const apiPort = '8081'
+const apiPort = '80'
 const imagesPort = '9000'
 export const imageBaseURL = `http://${ip}:${imagesPort}/images`
 export const imagePlaceholder = require(`../assets/placeholder.jpg`)
